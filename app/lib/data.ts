@@ -10,7 +10,7 @@ import {
 } from "./definitions";
 import { formatCurrency } from "./utils";
 
-// export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic";
 
 export async function fetchRevenue() {
   // Add noStore() here prevent the response from being cached.
